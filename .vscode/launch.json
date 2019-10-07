@@ -10,7 +10,7 @@
       "name": "Launch Snake",
       "program": "${workspaceFolder}/src/snake/index.ts",
       "preLaunchTask": "npm: build",
-      "outFiles": ["${workspaceFolder}/out/**/*.js"]
+      "outFiles": ["${workspaceFolder}/lib/**/*.js"]
     },
     {
       "type": "node",
@@ -18,7 +18,7 @@
       "name": "Launch play",
       "program": "${workspaceFolder}/src/index.ts",
       "preLaunchTask": "npm: build",
-      "outFiles": ["${workspaceFolder}/out/**/*.js"]
+      "outFiles": ["${workspaceFolder}/lib/**/*.js"]
     }
   ]
 }
